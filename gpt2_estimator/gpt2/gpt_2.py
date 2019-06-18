@@ -19,8 +19,7 @@ except:
     pass
 
 from gpt2.src import model, sample, encoder
-from gpt2.src.load_dataset import load_dataset
-import gpt2.src.sample as Sampler
+from gpt2.src.load_dataset import load_dataset,Sampler
 from gpt2.src.accumulate import AccumulatingOptimizer
 
 
