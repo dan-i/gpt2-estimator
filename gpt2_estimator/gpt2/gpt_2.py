@@ -11,6 +11,7 @@ import time
 from datetime import datetime
 import csv
 import argparse
+from tensorflow.core.protobuf import rewriter_config_pb2
 
 # if in Google Colaboratory
 try:
