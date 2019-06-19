@@ -58,6 +58,7 @@ def start_tf_sess():
     """
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True
+    config.graph_options.rewrite_options.layout_optimizer = rewriter_config_pb2.RewriterConfig.OFF
     return tf.Session(config=config)
 
 
